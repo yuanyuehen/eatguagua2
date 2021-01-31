@@ -14,7 +14,7 @@ let firstFruit = 0;
 // 指定生成的水果
 //const minRandomFruitNum = 0; // 生成随机水果最小值（0-10）
 //const maxRandomFruitNum = 5; // 生成随机水果最大值（1-11）
-const minRandomFruitNum = 4; // 生成随机水果最小值（0-10）
+const minRandomFruitNum = 8; // 生成随机水果最小值（0-10）
 const maxRandomFruitNum = 9; // 生成随机水果最大值（1-11）
 let setFruits = {
   startFruits: [0, 0, 1, 2, 2, 3], // 指定前几次生成的水果，可填入任意数量的数字
@@ -24,7 +24,7 @@ let setFruits = {
 }
 
 // 让水果更 Q 弹：false 改为大于 0 小于 1 的任意小数（推荐 0.9）
-let fruitQTan = 0.5;
+let fruitQTan = 0.3;
 
 // 让水果下落缓慢：false 改为大于 0 的任意数，值越大阻力越大，下落越慢（推荐 5）
 let fruitSlowDown = false;
